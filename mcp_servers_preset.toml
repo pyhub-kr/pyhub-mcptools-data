@@ -1,0 +1,8 @@
+[[mcp_servers]]
+uid = "파이썬사랑방 MCP 도구 (STDIO)"
+command = "pyhub.mcptools"
+args = "run stdio"
+env = {}
+hosts = ["cursor"]
+description = "파이썬사랑방 MCP 도구"
+
