@@ -1,0 +1,97 @@
+[[api_keys]]
+name = "ANTHROPIC_API_KEY"
+description = "Anthropic Claude API 키"
+url = "https://console.anthropic.com/account/keys"
+# pattern = "^sk-ant-.{32,}$"
+# tags = ["AI", "LLM", "Chat"]
+
+[[api_keys]]
+name = "AWS_ACCESS_KEY_ID"
+description = "AWS 액세스 키 ID"
+url = "https://console.aws.amazon.com/iam/home#/security_credentials"
+# pattern = "^AKIA[A-Z0-9]{16}$"
+# tags = ["AWS", "Cloud", "Authentication"]
+
+[[api_keys]]
+name = "AWS_SECRET_ACCESS_KEY"
+description = "AWS 시크릿 액세스 키"
+url = "https://console.aws.amazon.com/iam/home#/security_credentials"
+# pattern = "^[A-Za-z0-9+/]{40}$"
+# tags = ["AWS", "Cloud", "Authentication", "Secret"]
+
+[[api_keys]]
+name = "AZURE_OPENAI_API_KEY"
+description = "Azure OpenAI Service API 키"
+url = "https://portal.azure.com/#blade/Microsoft_Azure_ProjectOxford/CognitiveServicesHub/OpenAI"
+# pattern = "^[0-9a-f]{32}$"
+# tags = ["AI", "LLM", "Chat", "Azure", "Cloud"]
+
+[[api_keys]]
+name = "AZURE_SUBSCRIPTION_KEY"
+description = "Azure 구독 키"
+url = "https://portal.azure.com/#blade/Microsoft_Azure_Billing/SubscriptionsBlade"
+# pattern = "^[0-9a-f]{32}$"
+# tags = ["Azure", "Cloud", "Subscription", "Microsoft"]
+
+[[api_keys]]
+name = "DEEPL_API_KEY"
+description = "DeepL 번역 API 키"
+url = "https://www.deepl.com/pro-api"
+# pattern = "^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$"
+# tags = ["Translation", "AI", "NLP"]
+
+[[api_keys]]
+name = "GOOGLE_API_KEY"
+description = "Google API 키"
+url = "https://console.cloud.google.com/apis/credentials"
+# pattern = "^AIza[A-Za-z0-9-_]{35}$"
+# tags = ["Google", "Cloud", "Search", "Maps"]
+
+[[api_keys]]
+name = "GROQ_API_KEY"
+description = "Groq AI API 키"
+url = "https://console.groq.com/keys"
+# pattern = "^gsk_[A-Za-z0-9]{47}$"
+# tags = ["AI", "LLM", "Chat", "Fast"]
+
+[[api_keys]]
+name = "NOTION_API_KEY"
+description = "Notion 통합 API 키"
+url = "https://www.notion.so/my-integrations"
+# pattern = "^secret_[A-Za-z0-9]{43}$"
+# tags = ["Notion", "Document", "Collaboration"]
+
+[[api_keys]]
+name = "OPENAI_API_KEY"
+description = "OpenAI API 키"
+url = "https://platform.openai.com/api-keys"
+# pattern = "^sk-[A-Za-z0-9]{32,}$"
+# tags = ["AI", "LLM", "Chat", "GPT"]
+
+[[api_keys]]
+name = "PERPLEXITY_API_KEY"
+description = "Perplexity AI API 키"
+url = "https://docs.perplexity.ai/get-started"
+# pattern = "^pplx-[A-Za-z0-9]{47}$"
+# tags = ["AI", "LLM", "Search", "Research"]
+
+[[api_keys]]
+name = "PINECONE_API_KEY"
+description = "Pinecone 벡터 DB API 키"
+url = "https://app.pinecone.io/organizations/-/apikeys"
+# pattern = "^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$"
+# tags = ["Vector DB", "AI", "Search", "Embedding"]
+
+[[api_keys]]
+name = "SENDGRID_API_KEY"
+description = "SendGrid 이메일 API 키"
+url = "https://app.sendgrid.com/settings/api_keys"
+# pattern = "^SG\\.[A-Za-z0-9-_]{66}$"
+# tags = ["Email", "Communication", "Notification"]
+
+[[api_keys]]
+name = "SERPAPI_API_KEY"
+description = "SerpAPI 검색 API 키"
+url = "https://serpapi.com/dashboard"
+# pattern = "^[0-9a-f]{32}$"
+# tags = ["Search", "Web Scraping", "Google"]
