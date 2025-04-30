@@ -65,3 +65,9 @@ description = "SerpAPI 검색 API 키"
 url = "https://serpapi.com/dashboard"
 # pattern = "^[0-9a-f]{32}$"
 # tags = ["Search", "Web Scraping", "Google"]
+
+[[api_keys]]
+name = "UPSTAGE_API_KEY"
+description = "업스테이지 API 키"
+url = "https://console.upstage.ai/api-keys"
+
