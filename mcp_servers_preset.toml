@@ -3,6 +3,28 @@ uid = "pyhub.mcptools"
 command = "pyhub.mcptools"
 args = "run stdio"
 envs = {}
-hosts = ["claude", "cursor"]
+hosts = []
 description = "파이썬사랑방 MCP 도구 (STDIO)"
+url = "https://mcp.pyhub.kr"
+
+[[mcp_servers]]
+uid = "brave-search"
+command = "npx"
+args = "-y @modelcontextprotocol/server-brave-search"
+envs = { BRAVE_API_KEY: "" }
+hosts = []
+description = "Brave Search 도구"
+url = "https://api-dashboard.search.brave.com/app/keys"
+
+[[mcp_servers]]
+uid = "notionApi"
+command = "npx"
+args = "-y @notionhq/notion-mcp-server"
+envs = {
+    NOTION_API_KEY: "",
+    OPENAPI_MCP_HEADERS: "{\"Authorization\": \"Bearer ${NOTION_API_KEY}\", \"Notion-Version\": \"2022-06-28\" }"
+}
+hosts = []
+description = "Notion 도구"
+url = "https://www.notion.so/profile/integrations"
 
