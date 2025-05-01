@@ -11,7 +11,7 @@ url = "https://mcp.pyhub.kr"
 uid = "brave-search"
 command = "npx"
 args = "-y @modelcontextprotocol/server-brave-search"
-envs = { BRAVE_API_KEY: "" }
+envs = { BRAVE_API_KEY = "" }
 hosts = []
 description = "Brave Search 도구"
 url = "https://api-dashboard.search.brave.com/app/keys"
@@ -21,8 +21,8 @@ uid = "notionApi"
 command = "npx"
 args = "-y @notionhq/notion-mcp-server"
 envs = {
-    NOTION_API_KEY: "",
-    OPENAPI_MCP_HEADERS: "{\"Authorization\": \"Bearer ${NOTION_API_KEY}\", \"Notion-Version\": \"2022-06-28\" }"
+    NOTION_API_KEY = "",
+    OPENAPI_MCP_HEADERS = "{\"Authorization\": \"Bearer ${NOTION_API_KEY}\", \"Notion-Version\": \"2022-06-28\" }"
 }
 hosts = []
 description = "Notion 도구"
