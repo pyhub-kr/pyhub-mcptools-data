@@ -5,6 +5,7 @@ args = "run stdio"
 hosts = []
 description = "파이썬사랑방 MCP 도구 (STDIO)"
 url = "https://mcp.pyhub.kr"
+prefer = true
 
 [mcp_servers.envs]
 
