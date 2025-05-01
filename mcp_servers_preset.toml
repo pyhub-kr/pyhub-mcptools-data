@@ -2,7 +2,7 @@
 uid = "pyhub.mcptools"
 command = "pyhub.mcptools"
 args = "run stdio"
-env = {}
+envs = {}
 hosts = ["claude", "cursor"]
 description = "파이썬사랑방 MCP 도구 (STDIO)"
 
