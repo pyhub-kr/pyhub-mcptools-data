@@ -1,8 +1,8 @@
 [[mcp_servers]]
-uid = "파이썬사랑방 MCP 도구 (STDIO)"
+uid = "pyhub.mcptools"
 command = "pyhub.mcptools"
 args = "run stdio"
 env = {}
 hosts = ["claude", "cursor"]
-description = "파이썬사랑방 MCP 도구"
+description = "파이썬사랑방 MCP 도구 (STDIO)"
 
